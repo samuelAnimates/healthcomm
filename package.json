@@ -1,7 +1,7 @@
 {
   "scripts": {
     "serve": "npx eleventy --serve",
-    "build": "npx eleventy"
+    "buildit": "npx eleventy"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.11.1",
