@@ -1,0 +1,7 @@
+---
+layout: sessionLayout.liquid
+pageTitle: Welcome to my blog
+---
+{% for session in collections.sessions %}
+    <h2><a href="{{ session.url }}">{{ session.data.pageTitle }}</a></h2>
+{% endfor %}
