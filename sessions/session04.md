@@ -1,5 +1,5 @@
 ---
-pageTitle: Session 02 (A Play)
+pageTitle: Session 04 (Campfire Stories)
 graphics:
     - {alt: "aferfa", src: "asfdgeg"}
     - {alt: "aferfa", src: "asfdgeg"}
