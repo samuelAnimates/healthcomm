@@ -1,0 +1,11 @@
+---
+layout: homepageLayout.liquid
+pageTitle: Playing with Health Communication
+---
+<section>
+    <h2>Session Guides</h2>
+    {% for session in collections.sessions %}
+        <h3>Session Guide: <a href="{{ session.url }}">{{ session.data.pageTitle }}</a></h3>
+        <p>{{ session.data.description }}</p>
+    {% endfor %}
+</section>
