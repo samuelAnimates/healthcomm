@@ -1,13 +1,14 @@
 ---
 pageTitle: Session 04 (Campfire Stories)
 description: lorem ipsum blah blah.
+emoji: /images/emojiCamping.svg
 graphics:
     - {alt: "aferfa", caption: "asfdgeg", src: "asfdgeg"}
     - {alt: "aferfa", caption: "asfdgeg", src: "asfdgeg"}
 learningObjectives:
     - Item 1
     - Item 2
-    - Item 3
+    - Item 3.
 preWork: lorem ipsum vgeg...
 syllabus:
     - Item 1

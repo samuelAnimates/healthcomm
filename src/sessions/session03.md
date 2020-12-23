@@ -1,6 +1,7 @@
 ---
 pageTitle: Session 03 (Show-and-Tell)
 description: lorem ipsum blah blah
+emoji: /images/emojiMicrophone.svg
 graphics:
     - {alt: "aferfa", src: "asfdgeg"}
     - {alt: "aferfa", src: "asfdgeg"}

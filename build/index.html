@@ -15,7 +15,6 @@
                 vertical-align: baseline;
             }
             body{
-                background-color: rgb(241,159,211);
                 font-family: 'Asap', sans-serif;
                 font-size: 24px;
                 font-weight: 400;
@@ -42,13 +41,13 @@
                 font-family: 'Quicksand', sans-serif;
                 font-size: 1.5em;
                 font-weight: 600;
-                margin-top: 1em;
+                margin-top: .75em;
                 padding: .5em 0;
                 text-align: center;
             }
             h3{
-                background-color: rgb(255,253,250);
-                color: rgb(0,0,0);
+                background-color: inherit;
+                color: inherit;
                 display: block;
                 font-size: 1.25em;
                 font-weight: 600;
@@ -80,31 +79,36 @@
         </style>
     </head>
     <body>
-        <nav>
-            Navigation:
-            <ul style="background-color:rgb(241,159,211); display:inline-flex;list-style-type:none;">
-                <li>Home</li>
-                <li>Sessions</li>
-                <li>About</li>
-            </ul>
-        </nav>
-        <main style="margin:auto; width:90%;">
-            <section>
+        <div style="background: rgb(241,159,211) url(/images/wallpaper.svg) 150px 20px repeat; background-attachment: fixed;">
+            <nav>
+                Navigation:
+                <ul style="background-color:rgb(241,159,211); display:inline-flex;list-style-type:none;">
+                    <li>Home</li>
+                    <li>Sessions</li>
+                    <li>About</li>
+                </ul>
+            </nav>
+            <main style="background-color: rgba(0,0,0,0); margin:auto; width:90%;">
+                <section style="background-color:rgb(255,253,250)">
     <h2>Session Guides</h2>
     
-        <h3>Session Guide: <a href="/sessions/session01/">Session 01 (Tea Party!)</a></h3>
+        <h3><img alt="" src=/images/emojiTea.svg style="display:inline; height:1.5em;"/>Session Guide: <a href="/sessions/session01/">Session 01 (Tea Party)</a></h3>
         <p>lorem ipsum blah blah</p>
     
-        <h3>Session Guide: <a href="/sessions/session02/">Session 02 (A Play)</a></h3>
+        <h3><img alt="" src=/images/emojiMasks.svg style="display:inline; height:1.5em;"/>Session Guide: <a href="/sessions/session02/">Session 02 (A Play)</a></h3>
         <p>lorem ipsum blah blah</p>
     
-        <h3>Session Guide: <a href="/sessions/session03/">Session 03 (Show-and-Tell)</a></h3>
+        <h3><img alt="" src=/images/emojiMicrophone.svg style="display:inline; height:1.5em;"/>Session Guide: <a href="/sessions/session03/">Session 03 (Show-and-Tell)</a></h3>
         <p>lorem ipsum blah blah</p>
     
-        <h3>Session Guide: <a href="/sessions/session04/">Session 04 (Campfire Stories)</a></h3>
+        <h3><img alt="" src=/images/emojiCamping.svg style="display:inline; height:1.5em;"/>Session Guide: <a href="/sessions/session04/">Session 04 (Campfire Stories)</a></h3>
         <p>lorem ipsum blah blah.</p>
     
 </section>
-        </main>
+            </main>
+            <footer>
+                Footer Content
+            </footer
+        </div>
     </body>
 </html>

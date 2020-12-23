@@ -2,10 +2,10 @@
 layout: homepageLayout.liquid
 pageTitle: Playing with Health Communication
 ---
-<section>
+<section style="background-color:rgb(255,253,250)">
     <h2>Session Guides</h2>
     {% for session in collections.sessions %}
-        <h3>Session Guide: <a href="{{ session.url }}">{{ session.data.pageTitle }}</a></h3>
+        <h3><img alt="" src={{ session.data.emoji }} style="display:inline; height:1.5em;"/>Session Guide: <a href="{{ session.url }}">{{ session.data.pageTitle }}</a></h3>
         <p>{{ session.data.description }}</p>
     {% endfor %}
 </section>

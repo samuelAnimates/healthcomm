@@ -15,7 +15,6 @@
                 vertical-align: baseline;
             }
             body{
-                background-color: rgb(241,159,211);
                 font-family: 'Asap', sans-serif;
                 font-size: 24px;
                 font-weight: 400;
@@ -42,13 +41,13 @@
                 font-family: 'Quicksand', sans-serif;
                 font-size: 1.5em;
                 font-weight: 600;
-                margin-top: 1em;
+                margin-top: .75em;
                 padding: .5em 0;
                 text-align: center;
             }
             h3{
-                background-color: rgb(255,253,250);
-                color: rgb(0,0,0);
+                background-color: inherit;
+                color: inherit;
                 display: block;
                 font-size: 1.25em;
                 font-weight: 600;
@@ -80,16 +79,21 @@
         </style>
     </head>
     <body>
-        <nav>
-            Navigation:
-            <ul style="background-color:rgb(241,159,211); display:inline-flex;list-style-type:none;">
-                <li>Home</li>
-                <li>Sessions</li>
-                <li>About</li>
-            </ul>
-        </nav>
-        <main style="margin:auto; width:90%;">
-            {{ content }}
-        </main>
+        <div style="background: rgb(241,159,211) url(/images/wallpaper.svg) 150px 20px repeat; background-attachment: fixed;">
+            <nav>
+                Navigation:
+                <ul style="background-color:rgb(241,159,211); display:inline-flex;list-style-type:none;">
+                    <li>Home</li>
+                    <li>Sessions</li>
+                    <li>About</li>
+                </ul>
+            </nav>
+            <main style="background-color: rgba(0,0,0,0); margin:auto; width:90%;">
+                {{ content }}
+            </main>
+            <footer>
+                Footer Content
+            </footer
+        </div>
     </body>
 </html>

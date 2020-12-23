@@ -1,6 +1,7 @@
 ---
 pageTitle: Session 02 (A Play)
 description: lorem ipsum blah blah
+emoji: /images/emojiMasks.svg
 graphics:
     - {alt: "aferfa", src: "asfdgeg"}
     - {alt: "aferfa", src: "asfdgeg"}

@@ -1,6 +1,7 @@
 ---
-pageTitle: Session 01 (Tea Party!)
+pageTitle: Session 01 (Tea Party)
 description: lorem ipsum blah blah
+emoji: /images/emojiTea.svg
 graphics:
     - {alt: "aferfa", src: "asfdgeg"}
     - {alt: "aferfa", src: "asfdgeg"}
