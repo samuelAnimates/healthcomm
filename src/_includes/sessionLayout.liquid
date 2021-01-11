@@ -45,7 +45,7 @@ layout: baseLayout.liquid
     <h2>Learn More</h2>
     <ul>
         {% for resource in syllabus %}
-            <li>{{ resource }}</li>
+            <li>{{ resource.text }} <a href={{ resource.url }}>{{ resource.link }}</a></li>
         {% endfor %}
     </ul>
 </section>

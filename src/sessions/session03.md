@@ -18,5 +18,10 @@ worksheets:
     - Item..
 ---
 
-### Section 1
-This is a paragraph of text.
+### Community Standards
+### Theater Warm-Up: Receive and Pass
+### Opening Monologue: art and education, aesthetics of the oppressed
+### Script Workshopping
+### Interlude
+### Script Workshopping
+### Large Group Discussion
